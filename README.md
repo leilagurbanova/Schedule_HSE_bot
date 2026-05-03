@@ -19,16 +19,16 @@ Steps 1 and 3 are pure overhead - the bot eliminates them.
   system by driving a real browser session (Playwright) and parsing the DOM.
 - **Sends free slots to the participant** via Telegram.
 - **When the participant picks a time**, the bot automatically registers them
-  on LabShake — no researcher action required.
+  on LabShake - no researcher action required.
 - The participant gets a confirmation; the researcher's calendar is filled
   without manual work.
 
 ## Stack
 
 - **Python**
-- **Playwright** — browser automation, used both to read available slots and to
+- **Playwright** - browser automation, used both to read available slots and to
   submit registrations on LabShake.
-- **Telegram Bot API** — participant-facing interface.
+- **Telegram Bot API** - participant-facing interface.
 
 ## How it works
 
